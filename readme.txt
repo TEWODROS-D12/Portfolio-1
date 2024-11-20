@@ -1,4 +1,4 @@
 Thanks for downloading 
-Template Name: iPortfolio
+ iPortfolio
 Author: tewodros
 
