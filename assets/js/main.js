@@ -260,3 +260,10 @@
   new PureCounter();
 
 })()
+
+
+
+const currentYear = new Date().getFullYear();
+
+  // Update the span with the current year
+document.getElementById('current-year').textContent = currentYear;
