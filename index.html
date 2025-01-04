@@ -529,7 +529,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>My current location is not permanent. If you want to contact me, please use my social media links at any time or call me between 7:00 PM and 11:00 AM. Thank you for reading.  </p>
+          <p> If you want to contact me, please use my social media links at any time or call me between 7:00 PM and 11:00 AM. Thank you for reading.  </p>
         </div>
 
         <div class="row" data-aos="fade-in">
@@ -598,8 +598,23 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
+      <script>
+         function updateDateTime() {
+        // create a new `Date` object
+        const now = new Date();
+
+        // get the current date and time as a string
+        const currentDateTime = now.toLocaleString();
+
+        // update the `textContent` property of the `span` element with the `id` of `datetime`
+        document.querySelector('#datetime').textContent = currentDateTime;
+      }
+
+      // call the `updateDateTime` function every second
+      setInterval(updateDateTime, 1000);
+      </script>
       <div class="copyright">
-        &copy; Copyright since <strong><span> 2021-2024 </span></strong>
+        &copy; Copyright<strong><span id="datetime"> </span></strong>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
