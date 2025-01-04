@@ -12,7 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-  background-color: #000000;
+
 }
 
 a {
@@ -45,7 +45,7 @@ centering bg
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgb(165, 158, 158);
 }
 .imagecontainer{
   text-align: center;
