@@ -33,6 +33,30 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+/*  
+
+centering bg
+*/
+#fullbody{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.imagecontainer{
+  text-align: center;
+}
+.image{
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image is cropped properly */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
